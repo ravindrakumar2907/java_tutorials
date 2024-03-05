@@ -9,6 +9,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 2 out
 public class UserArrayDemo{
 	
 	public static void main(String args[]){
+		int a [] = new int[];
 		User user[] = new User[2]; // array of user 0,1
 		
 		User u1 = new User(); // object creation
