@@ -4,8 +4,11 @@ public class ArrayDemo2{
 	public static void main(String args[]){
 		int a[] = {1};
 		
-		System.out.println(a); // address
 		System.out.println(ArrayDemo2.a); // null
+		ArrayDemo2.a = new int [5];
+		System.out.println(a); // address
+		System.out.println(ArrayDemo2.a); // size(length) = 5
+		
 		
 	}
 }

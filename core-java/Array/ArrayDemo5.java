@@ -1,5 +1,6 @@
 /*
 Printing the Array and length
+Array input via command line argument
 */
 
 
